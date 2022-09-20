@@ -1,7 +1,10 @@
 s=input("Enter the String one: ")
 t=input("Enter the String two: ")
+if len(s) != len(t):
+    print("false")
+    quit()
+    
 max_len=0
-
 count1=0
 
 if(len(s)==len(t)):
